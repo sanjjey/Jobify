@@ -1,20 +1,28 @@
-# Expo Router Example
+# Jobify - Mobile Job Search App
 
-Use [`expo-router`](https://docs.expo.dev/router/introduction/) to build native navigation using files in the `app/` directory.
+[![Expo](https://img.shields.io/badge/expo-1C1E24?style=for-the-badge&logo=expo&logoColor=white)](https://expo.dev/)
+[![React Native](https://img.shields.io/badge/react_native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactnative.dev/)
 
-## 🚀 How to use
+A cross-platform mobile application for job searching built with React Native and Expo, featuring real-time job listings, company details, and application management.
 
-```sh
-npx create-expo-app -e with-router
-```
+![Jobify App Screenshot](screenshots/app-preview.png)
 
-## Deploy
+## 🚀 Deployment Guide
 
-Deploy on all platforms with Expo Application Services (EAS).
+### Prerequisites
+- Node.js 18+
+- Expo CLI (`npm install -g expo-cli`)
+- Expo account ([sign up](https://expo.dev/signup))
+- iOS/Android simulator or physical device
 
-- Deploy the website: `npx eas-cli deploy` — [Learn more](https://docs.expo.dev/eas/hosting/get-started/)
-- Deploy on iOS and Android using: `npx eas-cli build` — [Learn more](https://expo.dev/eas)
+### 📦 Installation
+```bash
+# Clone repository
+git clone https://github.com/your-username/jobify.git
+cd jobify
 
-## 📝 Notes
+# Install dependencies
+npm install
 
-- [Expo Router: Docs](https://docs.expo.dev/router/introduction/)
+# Start development server
+expo start
