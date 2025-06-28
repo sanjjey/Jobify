@@ -16,7 +16,7 @@ const useFetch = (endpoint,query) =>{
     date_posted: 'all'
   },
   headers: {
-    'x-rapidapi-key': '465d4b2e36mshf10d5f3ec9f98f3p197266jsnee7609a83e87',
+    'x-rapidapi-key': 'YOUR_API_KEY',
     'x-rapidapi-host': 'jsearch.p.rapidapi.com'
   }
 };
